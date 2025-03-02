@@ -1,0 +1,20 @@
+[project]
+name = "streamlit-growth-mindset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "saniatariq388", email = "saniatariq388@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ruff>=0.9.9",
+    "streamlit>=1.42.2",
+]
+
+[project.scripts]
+streamlit-growth-mindset = "streamlit_growth_mindset:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
